@@ -3,5 +3,5 @@ def reverse_each_word(phrase)
   backwards.split(" ")
   sentence = []
   sentence << backwards
-  sentence.reverse
+  sentence.reverse!
 end
