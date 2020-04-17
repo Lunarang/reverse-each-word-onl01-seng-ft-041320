@@ -1,5 +1,6 @@
 def reverse_each_word(phrase)
+  backwards = phrase.reverse
   sentence = []
-  sentence << phrase.split(" ")
-  sentence.each {|word| word.reverse}
+  sentence << backwards
+  sentence.reverse
 end
